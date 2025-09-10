@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Samy Elboraey • Portfolio</title>
+  <meta name="description" content="Portfolio of Mohamed Samy Elboraey – Android Developer & AI Enthusiast" />
+  <link rel="preconnect" href="https://fonts.googleapis.com  ">
+  <link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="nav">
+    <div class="wrap">
+      <button id="themeToggle" class="mobile-menu-btn" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img" aria-label="Logo"><path d="M7.4 5.3 1.7 12l5.7 6.7 1.6-1.4L4.9 12l4.1-5.3L7.4 5.3Zm9.2 0-1.6 1.4L19.1 12l-4.1 5.3 1.6 1.4L22.3 12 16.6 5.3ZM9.5 21h5v-2h-5v2ZM9.5 5h5V3h-5v2Z"/></svg>
+        </div>
+        <span>Portfolio • Elboraey</span>
+      </div>
+      <button class="mobile-menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a class="link" href="#cover">Cover</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#education">Education</a>
+        <a class="link" href="#experience">Experience</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#projects1">My Projects</a>
+        <a class="link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- SECTION 1: Cover -->
+    <section id="cover" class="section">
+      <div class="wrap hero">
+        <div class="hero-content">
+          <h1 class="h1">Mohamed Samy Elboraey</h1>
+          <span class="tag"><i class="fas fa-mobile-alt"></i> Mobile App Developer</span>
+          <p class="lead">Android Developer (Jetpack Compose) and student at Faculty of Computers and Information – Mansoura University. Passionate about building practical applications and clean user experiences.</p>
+          <div style="display:flex;gap:10px;margin-top:18px;flex-wrap:wrap;justify-content: center;">
+            <a class="btn" href="#projects1"><i class="fas fa-code"></i> View My Projects</a>
+            <a class="btn" href="#contact"><i class="fas fa-paper-plane"></i> Contact Me</a>
+          </div>
+          <div class="hero-badges">
+            <span class="tag"><i class="fab fa-android"></i> Android Developer</span>
+            <span class="tag"><i class="fas fa-paint-brush"></i> Jetpack Compose</span>
+            <span class="tag"><i class="fas fa-palette"></i> UI/UX Basics</span>
+            <span class="tag"><i class="fas fa-database"></i> Firebase</span>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="avatar floating">
+            <img src="assets/me.jpg" alt="Mohamed Samy Elboraey">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 2: About -->
+    <section id="about" class="section">
+      <div class="wrap grid two">
+        <div class="card">
+          <h2 class="h2">About Me</h2>
+          <p><strong></strong>An Android developer specializing in Kotlin and Jetpack Compose, driven by a relentless pursuit of elegance in mobile experiences. I design interfaces that are not just functional, but intuitive, immersive, and emotionally resonant. Beyond development, I explore the frontier of artificial intelligence, harnessing its potential to elevate apps into intelligent, context-aware companions. I thrive at the intersection of creativity, technology, and human experience, turning abstract ideas into tangible, impactful solutions that leave a lasting impression.</p>
+        </div>
+        <div class="card">
+          <h2 class="h2">Highlights</h2>
+          <div class="grid two">
+            <div>
+              <p class="lead"><i class="fas fa-briefcase"></i> Years of Experience</p>
+              <h3 style="margin:4px 0 0">Advanced Beginner</h3>
+            </div>
+            <div>
+              <p class="lead"><i class="fas fa-clock"></i> Work Style</p>
+              <h3 style="margin:4px 0 0">Freelance / Personal Projects</h3>
+            </div>
+          </div>
+          <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+            <span class="tag"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+            <span class="tag"><i class="fas fa-code"></i> Clean Code</span>
+            <span class="tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+          </div>
+          <ul style="margin:12px 0 0; color:var(--muted); line-height:1.9"></ul>
+          <ul>
+            <li><i class="fas fa-bullseye"></i> My Goals: Building applications that benefit users and show code and design quality</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 3: Education -->
+    <section id="education" class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2 class="h2"><i class="fas fa-graduation-cap"></i> Education</h2>
+          <div class="grid two">
+            <div>
+              <h3><i class="fas fa-university"></i> Mansoura University • Faculty of Computers and Information</h3>
+              <ul>
+                <li><i class="fas fa-lightbulb"></i> Currently studying at Digital Egypt Pioneers Initiative (DEPI)</li>
+                <li><i class="fas fa-laptop-code"></i> Specialization: Android App Development</li>
+              </ul>
+            </div>
+            <div>
+              <h3><i class="fas fa-book-open"></i> Courses and Self-Learning</h3>
+              <ul class="lead">
+                <li><i class="fas fa-check-circle"></i> Android Development with Kotlin</li>
+                <li><i class="fas fa-check-circle"></i> Jetpack Compose Essentials</li>
+                <li><i class="fas fa-check-circle"></i> Git & GitHub Workflow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 3.5: Experience -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2 class="h2"><i class="fas fa-briefcase"></i> Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2024 - Present</div>
+              <h3>Freelance Android Developer</h3>
+              <p class="lead">Developing personal projects and small applications for clients using modern Android technologies like Kotlin and Jetpack Compose.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2025 - 2026</div>
+              <h3>Student Developer</h3>
+              <p class="lead">Android Development Student – Egypt Pioneers Initiative</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- SECTION 4: Skills -->
+<section id="skills" class="section">
+  <div class="wrap">
+    <h2 class="h2"><i class="fas fa-tools"></i> Skills</h2>
+    <!-- Skill Category -->
+    <div class="card skill-category" data-skill="android" data-percent="80">
+      <div class="category-header">
+        <span><i class="fas fa-mobile-alt"></i> Android Development</span>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <span class="progress-percent">80%</span>
+        <i class="fas fa-chevron-down arrow"></i>
+      </div>
+      <div class="category-content">
+        <p class="lead">Started Android development journey in 2024 with focus on Kotlin and Jetpack Compose.</p>
+        <div class="tech-tools">
+          <div class="tech-group">
+            <strong>TECH:</strong>
+            <div class="tech-tags">
+              <span class="tag"><i class="fab fa-kickstarter"></i> Kotlin</span>
+              <span class="tag"><i class="fas fa-coffee"></i> Java</span>
+              <span class="tag"><i class="fas fa-paint-brush"></i> Jetpack Compose</span>
+              <span class="tag"><i class="fas fa-code"></i> Android Studio</span>
+              <span class="tag"><i class="fas fa-database"></i> Room Database</span>
+              <span class="tag"><i class="fas fa-fire"></i> Firebase</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <strong>TOOLS:</strong>
+            <div class="tools-tags">
+              <span class="tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+              <span class="tag"><i class="fas fa-cogs"></i> Retrofit</span>
+              <span class="tag"><i class="fas fa-bolt"></i> Coroutines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skill Category -->
+    <div class="card skill-category" data-skill="web" data-percent="65">
+      <div class="category-header">
+        <span><i class="fas fa-laptop-code"></i> Web Development</span>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <span class="progress-percent">65%</span>
+        <i class="fas fa-chevron-down arrow"></i>
+      </div>
+      <div class="category-content">
+        <p class="lead">Building responsive websites using modern web technologies.</p>
+        <div class="tech-tools">
+          <div class="tech-group">
+            <strong>TECH:</strong>
+            <div class="tech-tags">
+              <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="tag"><i class="fab fa-css3"></i> CSS3</span>
+              <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="tag"><i class="fab fa-react"></i> React</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <strong>TOOLS:</strong>
+            <div class="tools-tags">
+              <span class="tag"><i class="fab fa-github"></i> GitHub</span>
+              <span class="tag"><i class="fas fa-code-branch"></i> VS Code</span>
+              <span class="tag"><i class="fas fa-server"></i> Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skill Category: Additional / Soft Skills -->
+        <div class="card skill-category" data-skill="soft" data-percent="85">
+          <div class="category-header">
+            <span><i class="fas fa-user-check"></i> Additional / Soft Skills</span>
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <span class="progress-percent">85%</span>
+            <i class="fas fa-chevron-down arrow"></i>
+          </div>
+          <div class="category-content">
+            <p class="lead">Extra technical knowledge combined with personal and professional soft skills.</p>
+            <div class="tech-tools">
+              <div class="tech-group">
+                <strong>TECH:</strong>
+                <div class="tech-tags">
+                  <span class="tag"><i class="fab fa-python"></i> Python</span>
+                  <span class="tag"><i class="fas fa-code"></i> C#</span>
+                </div>
+              </div>
+              <div class="tools-group">
+                <strong>SOFT SKILLS:</strong>
+                <div class="tools-tags">
+                  <span class="tag"><i class="fas fa-users"></i> Teamwork</span>
+                  <span class="tag"><i class="fas fa-comments"></i> Communication</span>
+                  <span class="tag"><i class="fas fa-lightbulb"></i> Creativity</span>
+                  <span class="tag"><i class="fas fa-tasks"></i> Time Management</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 5: Projects (1) -->
+    <section id="projects1" class="section">
+      <div class="wrap">
+        <h2 class="h2"><i class="fas fa-project-diagram"></i> Projects</h2>
+        <div class="grid two">
+          <div class="card project" 
+              data-title="Movies Time"
+              data-desc="Movies Time is an Android application that allows users to browse and watch movie trailers, search for movies, and save their favorites. It uses modern Android technologies like Kotlin, Jetpack Compose, and integrates with an external API to fetch real-time movie data."
+              data-images="assets/Home.png,assets/Discover.png,assets/profile.png"
+              data-github="https://github.com/Elboraeyy/Movies_Time  ">
+            <div class="shot" aria-hidden="true">
+              <img src="assets/MoviesTime.png" alt="Movies Time - Movie Trailer Web App" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
+            </div>
+            <div>
+              <h3>Movies Time</h3>
+              <p class="lead">
+                Movies Time is a web application that allows users to browse and watch movie trailers. It uses modern web technologies like HTML, CSS, and JavaScript, integrating with an external API to fetch real-time movie data.
+              </p>
+              <p>
+                <a href="https://github.com/Elboraeyy/Movies_Time  " title="GitHub Link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> GitHub Link
+                </a>
+              </p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 8: Contact -->
+    <section id="contact" class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2 class="h2"><i class="fas fa-envelope"></i> Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <strong>Email</strong>
+              <p class="lead">
+                <a href="mailto:mohamed.samy00077@email.com" target="_blank">
+                  mohamed.samy00077@email.com
+                </a>
+              </p>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <strong>GitHub</strong>
+              <p class="lead">
+                <a href="https://github.com/Elboraeyy  " target="_blank">
+                  github.com/Elboraeyy
+                </a>
+              </p>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <strong>LinkedIn</strong>
+              <p class="lead">
+                <a href="https://www.linkedin.com/in/mohamed-samy-5017b5260  " target="_blank">
+                  linkedin.com/in/mohamed-samy-5017b5260
+                </a>
+              </p>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <strong>Freelance</strong>
+              <p class="lead">
+                <a href="https://mostaql.com/u/elboraey  " target="_blank">Mostaql</a> /
+                <a href="https://khamsat.com/user/elbora3y  " target="_blank">Khamsat</a>
+              </p>
+            </div>
+          </div>
+          <div style="text-align: center; margin-top: 40px;">
+            <h3 style="margin-bottom: 20px;">Let's Work Together!</h3>
+            <a href="#cover" class="btn">
+              <i class="fas fa-arrow-up"></i> Back to Top
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Project Modal -->
+  <div id="projectModal" class="project-modal" aria-hidden="true">
+    <div class="pm-backdrop" id="pmBackdrop"></div>
+    <div class="pm-card" role="dialog" aria-modal="true" aria-labelledby="pmTitle">
+      <button class="pm-close" id="pmClose" aria-label="Close">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="pm-left">
+        <div class="pm-image-wrap">
+          <button class="pm-prev" id="pmPrev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <img src="" alt="" id="pmImage">
+          <button class="pm-next" id="pmNext" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="pm-thumb-row" id="pmThumbs"></div>
+      </div>
+      <div class="pm-right">
+        <h2 id="pmTitle"></h2>
+        <p id="pmDesc" class="lead"></p>
+        <div class="pm-actions" id="pmActions"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
