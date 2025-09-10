@@ -28,11 +28,7 @@ A responsive portfolio showcasing skills, projects, and contact info, featuring:
 ### Movies Time
 - Browse & watch movie trailers, search movies, save favorites
 - [GitHub](https://github.com/Elboraeyy/Movies_Time)
-
-### ToDo List App
-- Task manager with add/edit/delete features and clean UI
-- [GitHub](https://github.com/Elboraeyy/todolist)
-
+- 
 ---
 
 ## 📬 Contact
