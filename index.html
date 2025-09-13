@@ -34,6 +34,7 @@
         <a class="link" href="#education">Education</a>
         <a class="link" href="#experience">Experience</a>
         <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#services">Services</a>
         <a class="link" href="#projects1">My Projects</a>
         <a class="link" href="#contact">Contact</a>
       </nav>
@@ -70,7 +71,7 @@
       <div class="wrap grid two">
         <div class="card">
           <h2 class="h2">About Me</h2>
-          <p><strong></strong>I’m an Android Developer passionate about crafting elegant mobile experiences with Kotlin & Jetpack Compose. I don’t just build apps—I design intuitive, immersive, and emotionally engaging interfaces. My curiosity drives me beyond mobile into the world of Artificial Intelligence, where I explore how smart, context-aware apps can truly become companions. At the intersection of creativity, technology, and human experience, I transform abstract ideas into impactful solutions that last. I work with startups, businesses, and entrepreneurs to turn ideas into market-ready mobile products.</p>
+          <p><strong></strong>An Android Developer passionate about crafting elegant mobile experiences with Kotlin & Jetpack Compose. I don’t just build apps I design intuitive, immersive, and emotionally engaging interfaces. My curiosity drives me beyond mobile into the world of Artificial Intelligence, where I explore how smart, context-aware apps can truly become companions. At the intersection of creativity, technology, and human experience, I transform abstract ideas into impactful solutions that last. I work with startups, businesses, and entrepreneurs to turn ideas into market ready mobile products.</p>
         </div>
         <div class="card">
           <h2 class="h2">Highlights</h2>
@@ -121,7 +122,7 @@
         </div>
       </div>
     </section>
-    <!-- SECTION 3.5: Experience -->
+    <!-- SECTION 4: Experience -->
     <section id="experience" class="section">
       <div class="wrap">
         <div class="card">
@@ -141,80 +142,78 @@
         </div>
       </div>
     </section>
-<!-- SECTION 4: Skills -->
-<section id="skills" class="section">
-  <div class="wrap">
-    <h2 class="h2"><i class="fas fa-tools"></i> Skills</h2>
-    <!-- Skill Category -->
-    <div class="card skill-category" data-skill="android" data-percent="80">
-      <div class="category-header">
-        <span><i class="fas fa-mobile-alt"></i> Android Development</span>
-        <div class="progress-bar"><div class="progress-fill"></div></div>
-        <span class="progress-percent">80%</span>
-        <i class="fas fa-chevron-down arrow"></i>
-      </div>
-      <div class="category-content">
-        <p class="lead">Started Android development journey in 2024 with focus on Kotlin and Jetpack Compose.</p>
-        <div class="tech-tools">
-          <div class="tech-group">
-            <strong>TECH:</strong>
-            <div class="tech-tags">
-              <span class="tag"><i class="fab fa-kickstarter"></i> Kotlin</span>
-              <span class="tag"><i class="fas fa-coffee"></i> Java</span>
-              <span class="tag"><i class="fas fa-paint-brush"></i> Jetpack Compose</span>
-              <span class="tag"><i class="fas fa-code"></i> Android Studio</span>
-              <span class="tag"><i class="fas fa-database"></i> Room Database</span>
-              <span class="tag"><i class="fas fa-fire"></i> Firebase</span>
-            </div>
+
+    <!-- SECTION 5: Skills -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2 class="h2"><i class="fas fa-tools"></i> Skills</h2>
+
+        <!-- Skill Category: Android Development -->
+        <div class="card skill-category">
+          <div class="category-header" onclick="toggleSkill(this)">
+            <span><i class="fas fa-mobile-alt"></i> Android Development</span>
+            <i class="fas fa-chevron-down arrow"></i>
           </div>
-          <div class="tools-group">
-            <strong>TOOLS:</strong>
-            <div class="tools-tags">
-              <span class="tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
-              <span class="tag"><i class="fas fa-cogs"></i> Retrofit</span>
-              <span class="tag"><i class="fas fa-bolt"></i> Coroutines</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Skill Category -->
-    <div class="card skill-category" data-skill="web" data-percent="65">
-      <div class="category-header">
-        <span><i class="fas fa-laptop-code"></i> Web Development</span>
-        <div class="progress-bar"><div class="progress-fill"></div></div>
-        <span class="progress-percent">65%</span>
-        <i class="fas fa-chevron-down arrow"></i>
-      </div>
-      <div class="category-content">
-        <p class="lead">Building responsive websites using modern web technologies.</p>
-        <div class="tech-tools">
-          <div class="tech-group">
-            <strong>TECH:</strong>
-            <div class="tech-tags">
-              <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
-              <span class="tag"><i class="fab fa-css3"></i> CSS3</span>
-              <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
-              <span class="tag"><i class="fab fa-react"></i> React</span>
-            </div>
-          </div>
-          <div class="tools-group">
-            <strong>TOOLS:</strong>
-            <div class="tools-tags">
-              <span class="tag"><i class="fab fa-github"></i> GitHub</span>
-              <span class="tag"><i class="fas fa-code-branch"></i> VS Code</span>
-              <span class="tag"><i class="fas fa-server"></i> Node.js</span>
+          <div class="category-content">
+            <p class="lead">Started Android development journey in 2024 with focus on Kotlin and Jetpack Compose.</p>
+            <div class="tech-tools">
+              <div class="tech-group">
+                <strong>TECH:</strong>
+                <div class="tech-tags">
+                  <span class="tag"><i class="fab fa-kickstarter"></i> Kotlin</span>
+                  <span class="tag"><i class="fas fa-coffee"></i> Java</span>
+                  <span class="tag"><i class="fas fa-paint-brush"></i> Jetpack Compose</span>
+                  <span class="tag"><i class="fas fa-code"></i> Android Studio</span>
+                  <span class="tag"><i class="fas fa-database"></i> Room Database</span>
+                  <span class="tag"><i class="fas fa-fire"></i> Firebase</span>
+                </div>
+              </div>
+              <div class="tools-group">
+                <strong>TOOLS:</strong>
+                <div class="tools-tags">
+                  <span class="tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                  <span class="tag"><i class="fas fa-cogs"></i> Retrofit</span>
+                  <span class="tag"><i class="fas fa-bolt"></i> Coroutines</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Skill Category: Additional / Soft Skills -->
-        <div class="card skill-category" data-skill="soft" data-percent="85">
-          <div class="category-header">
+
+        <!-- Skill Category: Web Development -->
+        <div class="card skill-category">
+          <div class="category-header" onclick="toggleSkill(this)">
+            <span><i class="fas fa-laptop-code"></i> Web Development</span>
+            <i class="fas fa-chevron-down arrow"></i>
+          </div>
+          <div class="category-content">
+            <p class="lead">Building responsive websites using modern web technologies.</p>
+            <div class="tech-tools">
+              <div class="tech-group">
+                <strong>TECH:</strong>
+                <div class="tech-tags">
+                  <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                  <span class="tag"><i class="fab fa-css3"></i> CSS3</span>
+                  <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                  <span class="tag"><i class="fab fa-react"></i> React</span>
+                </div>
+              </div>
+              <div class="tools-group">
+                <strong>TOOLS:</strong>
+                <div class="tools-tags">
+                  <span class="tag"><i class="fab fa-github"></i> GitHub</span>
+                  <span class="tag"><i class="fas fa-code-branch"></i> VS Code</span>
+                  <span class="tag"><i class="fas fa-server"></i> Node.js</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Category: Additional / Soft Skills -->
+        <div class="card skill-category">
+          <div class="category-header" onclick="toggleSkill(this)">
             <span><i class="fas fa-user-check"></i> Additional / Soft Skills</span>
-            <div class="progress-bar"><div class="progress-fill"></div></div>
-            <span class="progress-percent">85%</span>
             <i class="fas fa-chevron-down arrow"></i>
           </div>
           <div class="category-content">
@@ -241,7 +240,41 @@
         </div>
       </div>
     </section>
-    <!-- SECTION 5: Projects (1) -->
+
+    <!-- SECTION 6: Services -->
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2 class="h2"><i class="fas fa-concierge-bell"></i> My Services</h2>
+        <div class="grid three">
+          <!-- Service 1 -->
+          <div class="card service-card glow-hover">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Android App Development</h3>
+            <p class="lead">I build modern, responsive Android applications using Kotlin and Jetpack Compose for seamless user experiences.</p>
+          </div>
+          <!-- Service 2 -->
+          <div class="card service-card glow-hover">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p class="lead">I create intuitive and visually appealing interfaces that enhance user engagement and satisfaction.</p>
+          </div>
+          <!-- Service 3 -->
+          <div class="card service-card glow-hover">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>App Maintenance & Support</h3>
+            <p class="lead">I provide ongoing support, bug fixes, and feature updates to keep your app running smoothly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Projects (1) -->
     <section id="projects1" class="section">
       <div class="wrap">
         <h2 class="h2"><i class="fas fa-project-diagram"></i> Projects</h2>
@@ -357,10 +390,4 @@
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
-
